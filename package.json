@@ -1,0 +1,44 @@
+{
+  "name": "s-store",
+  "version": "1.0.0",
+  "description": "s-store is js-store",
+  "author": "cruel-32 <cruel32@nate.com>",
+  "private": true,
+  "scripts": {
+    "dev": "PORT=3000 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "heroku-postbuild": "npm run build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "axios": "^0.18.0",
+    "babel-jest": "^24.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "intersection-observer": "^0.5.1",
+    "jest": "^24.5.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.19",
+    "node-sass": "^4.11.0",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^7.1.0",
+    "vue-jest": "^3.0.4",
+    "vue-notifications": "^0.9.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.4.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.3",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.2.2"
+  }
+}

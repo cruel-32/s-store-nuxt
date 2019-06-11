@@ -1,0 +1,4 @@
+############
+GET http://localhost:7000/api/users HTTP/1.1
+############
+POST http://localhost:7000/api/users/cruel32@nate.com?name=csh&auth=Y&confirm=Y&level=1&joinDate=2019&deleted=N&_key_=aaasss&_salt_=bbbcvccc& HTTP/1.1
