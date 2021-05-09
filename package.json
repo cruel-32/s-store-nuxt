@@ -23,7 +23,7 @@
     "express": "^4.16.4",
     "intersection-observer": "^0.5.1",
     "jest": "^24.5.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "mongoose": "^5.4.19",
     "node-sass": "^4.11.0",
